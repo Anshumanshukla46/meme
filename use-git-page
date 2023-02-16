@@ -1,0 +1,12 @@
+Step 1-> 
+"homepage": "https://USERNAME.github.io/REPO-NAME",
+
+Step 2->
+npm install gh-pages --save-dev
+
+Step 3->
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+
+Step 4->
+npm run deploy
